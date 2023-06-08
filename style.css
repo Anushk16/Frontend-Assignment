@@ -1,0 +1,57 @@
+h2{
+text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left-container {
+    background-color: rgb(124, 202, 235);
+    width: 50%;
+    padding: 10px;
+    border: 1px solid black;
+  }
+
+  .item {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    
+  }
+  .item p2 {
+   font-size: larger;
+   font-weight: bolder;
+  }
+  .item img{
+    height: 200px;
+    width: 300px;
+  }
+  .right-container {
+    background-color: rgb(117, 237, 70);
+    width: 50%;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+  .item {
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: grab;
+  }
+  
+  .item:active {
+    cursor: grabbing;
+  }
+
+  #resetBtn{
+    padding: 10px;
+    font-size: large;
+  }
+
+  .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

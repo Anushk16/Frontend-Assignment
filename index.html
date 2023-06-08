@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <h2 class="content">Drag and Drop Example</h2>
+    <div class="container">
+        <div class="left-container">
+            <h3 style="text-align:center;">First Container</h3>
+            <hr>
+            <div class="item" draggable="true">
+                <img src="1.jpg" alt="image suppused to be here">
+            </div>
+
+            <div class="item" draggable="true">
+                <p style="font-weight: bolder;">DRAG ME</p>
+            </div>
+
+            <div id="item1" class="item" draggable="true">
+                <p style="font-weight: bolder;">ITEM 1!</p>
+            </div>
+
+            <div class="item" draggable="true">
+                <img src="2.jpg" alt="image suppused to be here">
+            </div>
+
+            <div id="item1" class="item" draggable="true">
+                <p style="font-weight: bolder;">ITEM2!</p>
+            </div>
+
+        </div>
+
+        <div class="right-container">
+            <h3 style="text-align:center;">Second Container</h3>
+            <hr>
+        </div>
+    </div>
+    <br>
+    <div class="button" id="button">
+        <button id="resetBtn">Reset</button>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+
+</html>
